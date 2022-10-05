@@ -7,7 +7,7 @@ const MovieCard = ({movie1}) => {
                     <p>Movie Year</p>
                 </div>
                 <div>
-                    <img src={Poster !== 'N/A' ? movie1.Poster : 'https://via.placeholder.com/400'} alt="" />
+                    <img src={movie1.Poster !== 'N/A' ? movie1.Poster : 'https://via.placeholder.com/400'} alt="" />
                 </div>
                 <div>
                     <span>{movie1.Type}</span>
